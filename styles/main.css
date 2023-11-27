@@ -1,0 +1,52 @@
+/* DEVELOPER: Andrew Medina Jr, IS117-003, Fall 2023 */
+
+
+
+nav ul {
+    float: left;
+    width: 100%; /* Adjusted for full width */
+    list-style: none; /* Removes bullet points from list */
+    display: flex;
+    justify-content: center; /* Center items */
+    padding: 0; /* Removes default padding */
+}
+
+/* Centering the Navbar */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.container-fluid {
+    width: auto; /* Adjusts the width to fit content */
+}
+
+.navbar-brand {
+    margin-right: 20px; /* Adds space after the brand */
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+/* Footer Style */
+.page-footer {
+    background-color: #343a40; /* Match the color of bg-dark in the navigation bar */
+    color: #FFCC00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.page-background {
+    background-color: #003366;
+}
+
+.img-border {
+    border: 4px solid #FFFFFF; /* White border */
+    outline: 4px solid #000000; /* Black outline */
+}

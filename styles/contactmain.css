@@ -1,0 +1,129 @@
+<!-- DEVELOPER: Andrew Medina Jr, IS117-003, Fall 2023 -->
+
+
+header {
+    background-color: #003366;
+    color: #FFCC00;
+    text-align: center;
+    padding: 10px;
+}
+header img {
+    height: 80px;
+    margin-right: 15px;
+    border: 2px solid #FFCC00; /* Add a 2px border with the specified color */
+}
+header img {
+    height: 80px;
+    margin-right: 15px;
+}
+.highlight {
+    color: white;     
+    font-size: larger; 
+	vertical-align: top;
+    line-height: normal;       
+}
+div.image {
+    text-align: center;
+}
+
+div.image img {
+    border: 2px solid #FFCC00;
+    display: block;
+    margin: 0 auto;
+}
+h6 em {
+    font-style: italic;
+}
+
+body h6{
+    text-align: center;
+    font-family: Apple Chancery, cursive;
+    color: white;
+}
+h3 {
+    font-weight: bold;
+    color: #FFCC00; /* Yellow color */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    line-height: 1.5; /* Adjust line height for better legibility */
+	color: #00ffcc;
+}
+
+main {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+main h3 {
+    font-size: 24px; /* Increase heading font size */
+}
+
+main p {
+    font-size: 18px; /* Increase paragraph font size */
+	color: #FFCC00;
+}
+body {
+    background-color: #003366 !important;
+}
+
+.paragraph {
+    background-color: #003366 !important;
+    color: #FFCC00;
+    font-weight: bold;
+    text-align: center;
+}
+label {
+    color: #FFCC00;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: #fff; 
+}
+
+.nav-item.active .nav-link {
+    background-color: #FFCC00;
+    color: #000; 
+}
+/* Adjust the padding and margin for the dropdown menu */
+.dropdown-menu {
+    margin-top: 0;
+    padding: 0;
+    position: 1;
+}
+
+.dropdown-item {
+    padding: 10px 15px; 
+    white-space: nowrap; 
+}
+
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #003366;
+    color: #003366;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}

@@ -1,0 +1,124 @@
+/* DEVELOPER: Andrew Medina Jr, IS117-003, Fall 2023 */
+
+
+header{
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #003366;
+}
+
+header img{
+    float: left;
+    height: 90px;
+    width: 100px;
+    border: 2px solid #FFCC00;
+    margin-right: 15px;
+}
+
+header h2{
+    padding: 20px;
+    margin-bottom: 0;
+    color: #FFCC00;
+    font-family: Optima, sans-serif;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: #fff; 
+}
+
+.nav-item.active .nav-link {
+    background-color: #FFCC00;
+    color: #000; 
+}
+/* Adjust the padding and margin for the dropdown menu */
+.dropdown-menu {
+    margin-top: 0;
+    padding: 0;
+    position: 1;
+}
+
+.dropdown-item {
+    padding: 10px 15px; 
+    white-space: nowrap; 
+}
+
+body {
+    background-color: #003366 !important;
+}
+
+body p{
+    padding: 10px 30px 0 30px;
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+	font: #FFCC00;
+}
+
+body main{
+    padding: 0 18%;
+    margin-bottom: 10%;
+	color: white;
+}
+
+body main div h4{
+    font-family: Apple Chancery, cursive;
+    color: #FFCC00;
+    font-weight: bolder;
+}
+
+body main div p{
+    font-family: Georgia, serif;
+	color: white;
+}
+
+main img{
+    height: 140px;
+    width: 150px;
+    border: 2px solid #FFCC00;
+}
+
+.marginbox{
+    margin: 80px;
+}
+
+.alignText{
+    padding: 0;
+}
+
+.goRight{
+    float: right;
+    margin-left: 25px;
+}
+
+.goLeft{
+    float: left;
+    margin-right: 25px;
+}
+
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}

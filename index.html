@@ -1,0 +1,94 @@
+<!-- DEVELOPER: Andrew Medina Jr, IS117-003, Fall 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volleyball Main Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="page-container text-center" style="background-color: #003366;">
+
+    <!-- Header -->
+    <header style="background-color: #003366; color: #FFCC00;">
+        <img align="left" src="images/volleyball_logo.jpeg" alt="Volleyball Logo" style="max-width: 100%; width: 1000px; height: 1000px;">
+        <div>
+            <h2><b>VolleyNetHub</b> - Spiking Up Your Volleyball Passion</h2>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md justify-content-center bg-dark navbar-dark">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Home</a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/history.html">History</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                            How-to-Play
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="html/positions.html">Positions</a>
+                            <a class="dropdown-item" href="html/rules.html">Rules</a>
+                            <a class="dropdown-item" href="html/training-videos.html">Training Videos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Main Content -->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="text-white">
+                <h1 class="display-4">Welcome to</h1>
+                <h1 class="display-4" style="color: #FFCC00; font-weight: bold;">VolleyNetHub</h1>
+            </div>
+            <p class="lead text-white">Spiking Up Your Volleyball Passion</p>
+            <p class="text-white">Discover the world of volleyball with us. Whether you're a beginner or an experienced player, we have everything you need to dive into the game, learn, and enjoy.</p>
+            <p class="text-white">Explore our website, videos, and resources to enhance your skills and connect with the vibrant volleyball community.</p>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12 text-center"> <!-- Added text-center class here -->
+            <img src="images/Volleyball_match.jpeg" alt="Volleyball Match" class="img-fluid img-border mx-auto d-block"> <!-- Added mx-auto d-block classes here -->
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer page-footer font-small text-center d-flex align-items-center" style="background-color: #003366 !important; color: #FFCC00 !important;">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Andrew Medina Jr, 2023 | Terms Of Use | Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap's JavaScript components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
